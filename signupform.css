@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  background: white;
+  margin-left: 20px;
+  padding: 20px;
+  border: 1px solid #f1f1f1;
+  margin: 20px;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+p {
+  padding: 20px 0 20px 0;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+label {
+  font-weight: bolder;
+}
+.input-label {
+  background: #f1f1f1;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+}
+.cancelbtn {
+  background: red;
+  width: 50%;
+  padding: 14px 20px;
+  border: none;
+  float: left;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.signupbtn {
+  font-weight: bolder;
+  background: green;
+  width: 50%;
+  padding: 14px 20px;
+  border: none;
+  float: left;
+  margin-bottom: 20px;
+}
+button:hover {
+  background: blue;
+}
